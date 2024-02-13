@@ -201,6 +201,11 @@ namespace DavidFDev.DevConsole
             return _console.GetCommand(name, out command);
         }
 
+        public static Dictionary<string, Command> GetCommands()
+        {
+            return _console.Commands;
+        }
+
         /// <summary>
         ///     Add a parameter type to the dev console database.
         ///     This will allow the provided type to be used as a parameter in commands.
