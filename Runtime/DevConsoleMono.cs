@@ -425,7 +425,7 @@ namespace DavidFDev.DevConsole
         /// <summary>
         ///     Dictionary of all active commands.
         /// </summary>
-        public readonly Dictionary<string, Command> Commands => _commands;
+        public Dictionary<string, Command> Commands => _commands;
 
         /// <summary>
         ///     The key used to toggle the developer console window (NULL, if none).
