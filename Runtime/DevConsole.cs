@@ -224,6 +224,21 @@ namespace DavidFDev.DevConsole
         }
 
         /// <summary>
+        ///     Sets the title text displayed on the top bar of the console.
+        /// </summary>
+        /// <param name="title">The new title text to display</param>
+        /// <exception cref="ArgumentNullException"></exception>
+        public static void SetTitle(string title)
+        {
+            if (string.IsNullOrEmpty(title))
+            {
+                throw new ArgumentNullException(nameof(title));
+            }
+
+            _console.SetTitle(title);
+        }
+
+        /// <summary>
         ///     Log a message to the dev console.
         /// </summary>
         /// <param name="message"></param>

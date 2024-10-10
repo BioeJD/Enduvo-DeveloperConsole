@@ -395,6 +395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _canvasGroup: {fileID: 6676915285017253634}
   _versionText: {fileID: 520647876880931289}
+  _titleText: {fileID: 6459815973931308617}
   _inputField: {fileID: 845665600302246255}
   _suggestionText: {fileID: 8332604281068276197}
   _logFieldPrefab: {fileID: 5715229556425181486}
@@ -1525,8 +1526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 113.03851, y: 0.000011444092}
-  m_SizeDelta: {x: 192.3971, y: 25}
+  m_AnchoredPosition: {x: 419.22, y: 0.000011444092}
+  m_SizeDelta: {x: 772.11273, y: 25}
   m_Pivot: {x: 0.52816284, y: 0.5}
 --- !u!222 &7247065499973083790
 CanvasRenderer:

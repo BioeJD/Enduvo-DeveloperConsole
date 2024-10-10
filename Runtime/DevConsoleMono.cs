@@ -133,10 +133,16 @@ namespace DavidFDev.DevConsole
         private CanvasGroup _canvasGroup = null;
 
         /// <summary>
-        ///     Reference to the text that displays the deev console's version number.
+        ///     Reference to the text that displays the dev console's version number.
         /// </summary>
         [SerializeField]
         private Text _versionText = null;
+
+        /// <summary>
+        ///     Reference to the text that displays the dev console's title.
+        /// </summary>
+        [SerializeField]
+        private Text _titleText = null;
 
         /// <summary>
         ///     Reference to the input field for entering commands.
@@ -860,6 +866,11 @@ namespace DavidFDev.DevConsole
                 return true;
             }
             return false;
+        }
+
+        internal void SetTitle(string title)
+        {
+            _titleText.text = title;
         }
 
         #endregion
